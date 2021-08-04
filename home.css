@@ -21,3 +21,26 @@ body{
     padding-bottom: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+.bg-dark1{
+    background-color: #000000;
+}
+
+.page-footer a{
+    color: #d5dadb;
+    text-decoration: inherit;
+
+}
+
+.gallery-item {
+    display: inline-block;
+    text-align: center;
+    vertical-align: top;
+    width: 100%;
+}
+
+.page-footer li,h6 {
+    color: #d5dadb;
+}
+p[class="mt-2"],div[class="footer-copyright text-center py-3"]{
+    color:#d5dadb;}
+
