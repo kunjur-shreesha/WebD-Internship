@@ -3,7 +3,7 @@ body{
 }
 .gokaruna{
   position: relative;
-  background: url(bkgnd.jpg);
+  background: url(b3.jpg);
   min-height: 87vh;
   background-size: cover;
   background-attachment: fixed;
@@ -93,4 +93,40 @@ p[class="mt-2"],div[class="footer-copyright text-center py-3"]{
   color: #fff;
   background-color: black;
   border-color:black;
+}
+
+
+.row1 {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column1 {
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column1 img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column1 {
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column1 {
+        flex: 100%;
+        max-width: 100%;
+    }
 }
