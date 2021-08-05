@@ -4,7 +4,7 @@ body{
 .gokaruna{
   position: relative;
   background: url(b3.jpg);
-  min-height: 87vh;
+    min-height: 97vh;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -15,15 +15,17 @@ body{
     font-size: 20px;
 }
 #box{
-    margin-top: -93px;
+    margin-top: -95px;
     border-radius: 0%;
     padding: 45px 55px 55px 55px;
     padding-bottom: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #000000;
 }
 .bg-dark1{
     background-color: #000000;
 }
+
 
 .page-footer a{
     color: #d5dadb;
@@ -46,7 +48,7 @@ p[class="mt-2"],div[class="footer-copyright text-center py-3"]{
 
 .gokaruna-v2{
   position: relative;
-  background: url(https://images.unsplash.com/photo-1547480514-a6bb6d49de37?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);
+  background: url(b4.jpg);
   min-height: 70vh;
   background-size: cover;
   background-attachment: fixed;
@@ -54,6 +56,19 @@ p[class="mt-2"],div[class="footer-copyright text-center py-3"]{
   background-repeat: no-repeat;
   display: flex;
 }
+
+.gokaruna-v3{
+    position: relative;
+    background: url(b7.jpg);
+    min-height: 70vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+}
+
+
 #slide {
   display: flex;
   flex-wrap: wrap;
