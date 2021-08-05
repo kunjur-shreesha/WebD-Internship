@@ -14,6 +14,13 @@ body{
 .nav-item{
     font-size: 20px;
 }
+
+#log{
+    color: white;
+    font-weight: 500;
+    font-size:17px;
+}
+
 #box{
     margin-top: -95px;
     border-radius: 0%;
