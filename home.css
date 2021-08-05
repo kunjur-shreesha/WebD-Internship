@@ -15,11 +15,7 @@ body{
     font-size: 20px;
 }
 
-#log{
-    color: white;
-    font-weight: 500;
-    font-size:17px;
-}
+
 
 #box{
     margin-top: -95px;
@@ -27,7 +23,7 @@ body{
     padding: 45px 55px 55px 55px;
     padding-bottom: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #000000;
+    background-color: #23272b;
 }
 .bg-dark1{
     background-color: #000000;
