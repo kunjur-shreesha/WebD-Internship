@@ -3,8 +3,28 @@ body{
 }
 .gokaruna{
   position: relative;
-  background: url(b3.jpg);
+  background: url(b33.jpg);
     min-height: 97vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.go2karuna{
+  position: relative;
+  background: url(i1\ \(5\).jpg);
+    min-height: 80vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+}
+.go3karuna{
+  position: relative;
+  background: url(asdfghjkl.jpg);
+    min-height: 80vh;
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -18,9 +38,9 @@ body{
 
 
 #box{
-    margin-top: -95px;
+    margin-top: -90px;
     border-radius: 0%;
-    padding: 45px 55px 55px 55px;
+    padding: 50px 55px 55px 55px;
     padding-bottom: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background-color: #23272b;
@@ -62,8 +82,8 @@ p[class="mt-2"],div[class="footer-copyright text-center py-3"]{
 
 .gokaruna-v3{
     position: relative;
-    background: url(b7.jpg);
-    min-height: 70vh;
+    background: url(b77.jpg);
+    min-height: 45vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
